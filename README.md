@@ -100,5 +100,25 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 
+```
 
+
+# Installation
+```python
+# Clone the repository
+git clone https://github.com/Jgam2/Orchestrator.git
+cd Orchestrator
+
+# Install dependencies
+pip install -r requirements.txt
+```
+# Testing
+```python
+# Run all tests
+pytest tests/
+
+# Run specific test file
+pytest tests/test_orchestrator.py
+
+```
 
