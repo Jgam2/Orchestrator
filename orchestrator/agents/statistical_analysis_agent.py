@@ -6,6 +6,7 @@ import logging
 import asyncio
 import random
 from typing import Dict, Any, List, Optional
+from collections import defaultdict
 
 from orchestrator.agents.base_agent import Agent
 
